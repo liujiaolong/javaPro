@@ -16,7 +16,7 @@ public class StreamDemo02 {
         Stream<Integer> valueStream = maps.values().stream();
         //键值对流(拿整体)
         Stream<Map.Entry<String , Integer>> keyAndValueStream = maps.entrySet().stream();
-        /************数组获取流*****************/
+        /**************数组获取流*******************/
         String[] names = {"赵敏" , "小赵" , "灭绝"};
         Stream<String> nameStream = Arrays.stream(names);
         System.out.println(nameStream);
